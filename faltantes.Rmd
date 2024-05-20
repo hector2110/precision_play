@@ -1,0 +1,39 @@
+---
+title: "proyecto_faltantes"
+author: "Hector"
+date: "2024-04-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## imputacion valores faltantes
+
+```{r}
+# load mixgb
+library(mixgb)
+```
+
+
+
+```{r}
+datos <- read.csv("./train_data_filtrados.csv", sep=";")
+```
+
+
+
+```{r}
+imputados = mixgb(datos, verbose = 1, print_every_n = 1, m = 1)
+```
+
+```{r}
+datos_imputados <- imputados[[1]]
+```
+
+
+```{r}
+write.csv(datos_imputados, "datosImputados_con_XGBOOST.csv", row.names = FALSE)
+```
+
