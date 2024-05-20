@@ -1,6 +1,4 @@
 # precision_play
-Project Name
-Overview
 
 This project aims to develop predictive models based on a dataset. The models are designed to predict certain outcomes based on input variables. The project includes exploratory analysis, data preprocessing, model training, and evaluation.
 Usage
