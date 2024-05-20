@@ -1,30 +1,47 @@
-# precision_play
+# Football Outcome Prediction
 
-This project aims to develop predictive models based on a dataset. The models are designed to predict certain outcomes based on input variables. The project includes exploratory analysis, data preprocessing, model training, and evaluation.
-Usage
+## Overview
 
-Run the Exploratory Analysis script (ANALISIS_EXPLORATORIO.ipynb) to explore the dataset and gain insights into its structure and characteristics.
+This project aims to predict the outcomes of football matches, specifically whether a certain team wins, loses, or draws. It involves developing predictive models using a dataset containing various match-related variables. The project pipeline includes the following steps:
 
-Clean the data using the script faltantes.Rmd to handle missing values.
+Exploratory Analysis: Explore the football match dataset to understand its structure, characteristics, and patterns.
 
-After handling missing values, use the MODELOS_SIN_FALTANTES.ipynb notebook to train predictive models without missing values.
+Data Preprocessing: Utilize the faltantes.Rmd script to handle missing values and clean the dataset.
 
-Optionally, if missing values are not handled, you can use the MODELO_CON_FALTANTES.ipynb notebook to train models without preprocessing missing values. However, it's recommended to use the models trained without missing values as they tend to perform better.
+Model Training: Train predictive models without missing values using the MODELOS_SIN_FALTANTES.ipynb notebook. Additionally, models trained with missing values are also considered important for robust analysis and you con train models with missing values using MODELOS_CON_FALTANTES.ipynb.
 
-Dependencies
+Model Evaluation: Assess the performance of the trained models using appropriate evaluation metrics.
+
+## Usage
+
+Clone the repository to your local machine.
+
+Execute the provided scripts and notebooks in the following sequence:
+
+a. ANALISIS_EXPLORATORIO.ipynb: Perform an exploratory analysis of the football match dataset.
+
+b. faltantes.Rmd: Preprocess the data to handle missing values.
+
+c. MODELOS_SIN_FALTANTES.ipynb: Train predictive models without missing values.
+
+d. MODELO_CON_FALTANTES.ipynb: Train models without preprocessing missing values.
+
+## Dependencies
 
 Python 3.x
+
 Jupyter Notebook
+
 R (for executing faltantes.Rmd)
 
-Contributors
+## Contributors
 
 David Andreu Roqueta
 Vlad Galan Galan
-Martin Ruddy Miguélez
 Rubén Sanchís Hernández
+Martin Ruddy Miguélez
 Héctor García Hernández
 
-License
+## License
 
 This project is licensed under the MIT License.
