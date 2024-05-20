@@ -37,9 +37,13 @@ R (for executing faltantes.Rmd)
 ## Contributors
 
 David Andreu Roqueta
+
 Vlad Galan Galan
+
 Rubén Sanchís Hernández
+
 Martin Ruddy Miguélez
+
 Héctor García Hernández
 
 ## License
