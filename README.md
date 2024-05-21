@@ -14,7 +14,9 @@ Model Evaluation: Assess the performance of the trained models using appropriate
 
 ## Usage
 
-Clone the repository to your local machine.
+If you are interested in accessing the data for this project, please visit this link https://challengedata.ens.fr/challenges/143 and register for the challenge to obtain the dataset.
+
+Then, clone the repository to your local machine.
 
 Execute the provided scripts and notebooks in the following sequence:
 
